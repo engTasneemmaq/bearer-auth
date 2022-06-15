@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 const logger=require("../middlewares/logger");
 
 signUpRouter.get('/',(req,res)=>{
-    res.send("use /signup , signin , ");
+    res.send("welcom to my server");
 })
 signUpRouter.post('/signup',async(req,res)=>{
     try {
