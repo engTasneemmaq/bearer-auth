@@ -5,9 +5,7 @@ const {Users}=require('../module/Users');
 const bcrypt = require('bcrypt');
 const logger=require("../middlewares/logger");
 
-signUpRouter.get('/',(req,res)=>{
-    res.send("welcom to my server");
-})
+
 signUpRouter.post('/signup',async(req,res)=>{
     try {
         req.body.password = await bcrypt.hash(req.body.password, 10);
