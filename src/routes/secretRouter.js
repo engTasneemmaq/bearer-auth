@@ -8,6 +8,7 @@ secretRouter.get('/secret',bearer,(req,res)=>{
     res.status(200).json({
         'message': 'You are authorized to view the user orders',
         'user': req.user
+
     });})
 
     secretRouter.use(logger);

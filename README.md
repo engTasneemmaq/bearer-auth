@@ -24,6 +24,9 @@ Token (Bearer) Authentication
 ![test pass](./assest/test-pass.png)
 
 
+![secret route](./assest/secret1.png)
+
+
 
 
 
